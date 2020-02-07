@@ -1,0 +1,135 @@
+@media (max-width: 960px) {
+
+    .slider__inner::before,
+    .slider__inner::after,
+    .footer__inner::before,
+    .footer__inner::after {
+        display: none;
+    }
+
+    .articles__item-text {
+        padding-right: 20px;
+    }
+}
+
+@media (max-width: 930px) {
+
+    .works__inner {
+        margin-bottom: 20px;
+    }
+
+    .works__recent-items {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .works__recent-item {
+        margin-bottom: 20px;
+    }
+
+    .footer__inner-items {
+        padding: 17px 14px 12px;
+    }
+
+    .footer__inner-item {
+        padding-right: 20px;
+    }
+
+    .footer__contact {
+        padding-right: 0;
+    }
+
+}
+
+@media (max-width: 870px) {
+
+    .slider-nav {
+        margin-bottom: 20px;
+    }
+
+    .articles__inner {
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-bottom: 10px;
+    }
+
+    .articles__item {
+        margin-bottom: 20px;
+    }
+
+    .articles__item-title {
+        margin-bottom: 15px;
+    }
+
+    .articles__item-text {
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 700px) {
+
+    .header__menu-btn {
+        display: block;
+    }
+
+    .header__inner-menu ul {
+        display: none;
+        position: absolute;
+        z-index: 1;
+        left: 0;
+        right: 0;
+        width: 100%;
+        background-image: url(../img/bg_header.png);
+    }
+
+    .header__inner-menu li + li {
+        margin: 20px 0;
+    }
+
+    .header__menu-list {
+        display: block;
+        text-align: center;
+    }
+
+    .header__menu-list a {
+        display: block;
+    }
+}
+
+@media (max-width: 500px) {
+
+    .slider__item-content {
+        width: auto;
+        left: 0;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 460px) {
+
+    .footer__inner-items {
+
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer__twitter {
+        width: 280px;
+        margin-bottom: 20px;
+    }
+
+    .footer__about {
+        margin-bottom: 10px;
+    }
+
+    .footer__title {
+        margin-bottom: 15px;
+    }
+}
+
+@media (min-width: 700px) {
+    .header__inner-menu ul {
+        display: block !important;
+    }
+}
